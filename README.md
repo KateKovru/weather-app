@@ -138,11 +138,11 @@ Maven does not need to be installed separately because the project includes the 
 
 ```env
 
-WEATHER\_API\_KEY=your\_openweathermap\_api\_key
+WEATHER_API_KEY=your_openweathermap_api_key
 
-DB\_PASSWORD=your\_postgresql\_password
+DB_PASSWORD=your_postgresql_password
 
-JWT\_SECRET=your\_secure\_jwt\_secret
+JWT_SECRET=your_secure_jwt_secret
 
 ```
 
