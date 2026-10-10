@@ -1,0 +1,49 @@
+.forecast {
+    padding: 10px;
+}
+
+.forecast h2 {
+    margin-bottom: 25px;
+}
+
+.forecast-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.forecast-item {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 18px 12px;
+    text-align: center;
+}
+
+.forecast-item h3 {
+    font-size: 25px;
+    color: #2563eb;
+    margin: 15px 0;
+}
+
+.forecast-item p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.forecast-date {
+    color: #64748b;
+    font-weight: bold;
+}
+
+@media (max-width: 650px) {
+    .forecast-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 400px) {
+    .forecast-grid {
+        grid-template-columns: 1fr;
+    }
+}
