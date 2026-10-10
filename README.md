@@ -1,8 +1,8 @@
-\# Weather App 🌤️
+# Weather App 🌤️
 
 
 
-A full-stack weather application built with \*\*Java, Spring Boot, React, and PostgreSQL\*\*.
+A full-stack weather application built with **Java, Spring Boot, React, and PostgreSQL**.
 
 
 
@@ -10,77 +10,77 @@ The application allows users to search for real-time weather conditions, view we
 
 
 
-\## Screenshot
+## Screenshot
 
 
 
-!\[Weather App Screenshot](screenshots/weather-app.png)
+![Weather App Screenshot](screenshots/weather-app.png)
 
 
 
-\## Features
+## Features
 
 
 
-\- Search for current weather conditions by city
+- Search for current weather conditions by city
 
-\- View temperature, feels-like temperature, and humidity
+- View temperature, feels-like temperature, and humidity
 
-\- Display weather forecasts with dates and times
+- Display weather forecasts with dates and times
 
-\- User registration and login
+- User registration and login
 
-\- JWT-based authentication
+- JWT-based authentication
 
-\- Add and remove favorite cities
+- Add and remove favorite cities
 
-\- Store user accounts and favorite locations in PostgreSQL
+- Store user accounts and favorite locations in PostgreSQL
 
-\- Responsive interface for desktop and mobile devices
-
-
-
-\## Tech Stack
+- Responsive interface for desktop and mobile devices
 
 
 
-\### Backend
-
-\- Java 25
-
-\- Spring Boot 4
-
-\- Spring Security
-
-\- Spring Data JPA / Hibernate
-
-\- PostgreSQL
-
-\- JWT Authentication
-
-\- OpenWeatherMap API
-
-\- JUnit 5 and Mockito
-
-\- Maven
+## Tech Stack
 
 
 
-\### Frontend
+### Backend
 
-\- React
+- Java 25
 
-\- JavaScript
+- Spring Boot 4
 
-\- Vite
+- Spring Security
 
-\- CSS
+- Spring Data JPA / Hibernate
 
-\- Fetch API
+- PostgreSQL
+
+- JWT Authentication
+
+- OpenWeatherMap API
+
+- JUnit 5 and Mockito
+
+- Maven
 
 
 
-\## Project Structure
+### Frontend
+
+- React
+
+- JavaScript
+
+- Vite
+
+- CSS
+
+- Fetch API
+
+
+
+## Project Structure
 
 
 
@@ -102,21 +102,21 @@ weather-app/
 
 
 
-\## Getting Started
+## Getting Started
 
 
 
-\### Requirements
+### Requirements
 
 
 
-\- Java 25
+- Java 25
 
-\- Node.js and npm
+- Node.js and npm
 
-\- PostgreSQL
+- PostgreSQL
 
-\- OpenWeatherMap API key
+- OpenWeatherMap API key
 
 
 
@@ -124,15 +124,15 @@ Maven does not need to be installed separately because the project includes the 
 
 
 
-\### Backend Setup
+### Backend Setup
 
 
 
-1\. Create a PostgreSQL database named `weather\_app`.
+1. Create a PostgreSQL database named `weather\_app`.
 
 
 
-2\. Configure the following environment variables:
+2. Configure the following environment variables:
 
 
 
@@ -152,7 +152,7 @@ Use a securely generated JWT secret of at least 32 bytes.
 
 
 
-3\. Navigate to the backend directory:
+3. Navigate to the backend directory:
 
 
 
@@ -164,11 +164,11 @@ cd weather-api
 
 
 
-4\. Start the Spring Boot application:
+4. Start the Spring Boot application:
 
 
 
-\*\*Windows:\*\*
+**Windows:**
 
 ```bash
 
@@ -178,7 +178,7 @@ mvnw.cmd spring-boot:run
 
 
 
-\*\*Linux / macOS:\*\*
+**Linux / macOS:**
 
 ```bash
 
@@ -200,11 +200,11 @@ The default database connection uses PostgreSQL at `localhost:5432` with the use
 
 
 
-\### Frontend Setup
+### Frontend Setup
 
 
 
-1\. Navigate to the frontend directory:
+1. Navigate to the frontend directory:
 
 
 
@@ -216,7 +216,7 @@ cd weather-frontend
 
 
 
-2\. Install dependencies:
+2. Install dependencies:
 
 
 
@@ -228,7 +228,7 @@ npm install
 
 
 
-3\. Start the development server:
+3. Start the development server:
 
 
 
@@ -240,7 +240,7 @@ npm run dev
 
 
 
-4\. Open the application in your browser:
+4. Open the application in your browser:
 
 
 
@@ -252,7 +252,7 @@ Make sure the backend is running before using the application.
 
 
 
-\## Testing
+## Testing
 
 
 
@@ -264,19 +264,19 @@ The tests cover:
 
 
 
-\- Weather data processing
+- Weather data processing
 
-\- Invalid city handling
+- Invalid city handling
 
-\- User registration and duplicate email validation
+- User registration and duplicate email validation
 
-\- Password encoding
+- Password encoding
 
-\- User authentication
+- User authentication
 
-\- Adding favorite cities
+- Adding favorite cities
 
-\- Preventing unauthorized favorite deletion
+- Preventing unauthorized favorite deletion
 
 
 
@@ -284,7 +284,7 @@ Run the backend tests using:
 
 
 
-\*\*Windows:\*\*
+**Windows:**
 
 ```bash
 
@@ -294,7 +294,7 @@ mvnw.cmd test
 
 
 
-\*\*Linux / macOS:\*\*
+**Linux / macOS:**
 
 ```bash
 
@@ -308,7 +308,7 @@ Tests that start the full Spring application context may additionally require Po
 
 
 
-\## Author
+## Author
 
 
 
